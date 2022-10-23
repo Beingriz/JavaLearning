@@ -21,7 +21,7 @@ public class CeilingOfNumber {
             else if (target < arr[mid]){
                 end = mid-1;
             }
-            else if(target == arr[mid]){
+            else {
                 return mid;
             }
             if (target > arr[arr.length-1]){
