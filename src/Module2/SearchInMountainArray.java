@@ -17,7 +17,7 @@ public class SearchInMountainArray {
         }
         return orderAgnosticSerach(arr, target,peak+1, arr.length-1);
     }
-    // peak function to find the pean in a given array
+    // peak function to find the peak in a given array
     static  int peakElementInArray(int[] arr){
         int low = 0;
         int high  = arr.length;
@@ -25,7 +25,7 @@ public class SearchInMountainArray {
         while (low < high){
             int mid = low + (high-low)/2;
 
-            if(arr[mid] >arr[mid+1]){
+            if(arr[mid] > arr[mid+1]){
                 high = mid;
             }else {
                 low = mid+1;
