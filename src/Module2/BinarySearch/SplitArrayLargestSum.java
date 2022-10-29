@@ -1,4 +1,4 @@
-package Module2;
+package Module2.BinarySearch;
 
 public class SplitArrayLargestSum {
     public static void main(String[] args) {

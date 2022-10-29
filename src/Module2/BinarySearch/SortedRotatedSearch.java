@@ -1,4 +1,4 @@
-package Module2;
+package Module2.BinarySearch;
 // This is Based on Take U Forward Approad.
 /* 	1. Sorted Rotated Array with Distinct Elemet.
 		a. Take U Forward Approach Steps.
