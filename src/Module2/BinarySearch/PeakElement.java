@@ -2,7 +2,8 @@ package Module2.BinarySearch;
 
 public class PeakElement {
     public static void main(String[] args) {
-        int[] arr = {0,1,2,3,4,5,6,7,8,4,3,2,1,0};
+//        int[] arr = {0,1,2,3,4,5,6,7,8,4,3,2,1,0};
+        int[] arr = {5,8,9,10,12,14,15,2,3,4};
         System.out.println(searchPeak(arr));
     }
     static int searchPeak(int[] arr){
